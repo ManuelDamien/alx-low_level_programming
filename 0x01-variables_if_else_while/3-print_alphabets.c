@@ -11,12 +11,12 @@ int main(void)
 	char low = 'a';
 	char upper = 'A';
 
-	while (low <= 'z')
+	for (low <= 'z')
 	{
 		putchar(low);
 		low += 1;
 	}
-	while (upper <= 'Z')
+	for (upper <= 'Z')
 	{
 		putchar(upper)
 			upper += 1;
