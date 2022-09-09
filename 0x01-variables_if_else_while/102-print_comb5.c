@@ -26,8 +26,8 @@ while (a <= 99)
 		putchar((b % 10) + n1);
 		if (a != 98 || b != 99)
 		{
-			putchar(com);
-			putchar(32);
+			putchar(',');
+			putchar(' ');
 		}
 		b += 1;
 	}
