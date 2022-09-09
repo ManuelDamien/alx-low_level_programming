@@ -10,28 +10,28 @@
 
 int main(void)
 {
-	int n1 = 0, n2;
-while (n1 <= 99)
+	int n1 = 48;
+	int a = 0;
+int b;
+int com = 44;
+while (a <= 99)
 {
-	n2 = n1;
-	while (n2 <= 99)
+	b = a + 1;
+	while (b <= 99)
 	{
-		if (n2 != n1)
+		putchar((a / 10) + n1);
+		putchar((a % 10) + n1);
+		putchar(32);
+		putchar((b / 10) + n1);
+		putchar((b % 10) + n1);
+		if (a != 98 || b != 99)
 		{
-			putchar((n1 / 10) + 48);
-			putchar((n1 % 10) + 48);
-			putchar(' ');
-			putchar((n2 / 10) + 48);
-			putchar((n1 % 10) + 48);
-			if (n1 != 98 || n2 != 98)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar(com);
+			putchar(32);
 		}
-		++n2;
+		b += 1;
 	}
-	++n1;
+	 a += 1;
 }
 putch('\n');
 return (0);
