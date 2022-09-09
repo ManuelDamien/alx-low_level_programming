@@ -30,10 +30,11 @@ while (n1 <= 99)
 			putchar(',');
 			putchar(' ');
 		}
+		}
 		++n2;
 	}
 	 ++n1;
 }
-putch('\n');
+putchar('\n');
 return (0);
 }
