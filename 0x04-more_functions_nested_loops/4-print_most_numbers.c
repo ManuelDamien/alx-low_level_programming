@@ -3,7 +3,7 @@
  * print_most_numbers -  checks for digits from 0 through to 9
  * Return: 0 when successful
  */
-void print_most_numbers(void);
+void print_most_numbers(void)
 {
 	int c;
 
