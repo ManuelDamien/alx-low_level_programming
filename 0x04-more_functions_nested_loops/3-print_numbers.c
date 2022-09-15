@@ -3,7 +3,7 @@
  * print_numbers - checks digit from 0 through to 9
  * Return: 0 when successful
  */
-void print_numbers(void);
+void print_numbers(void)
 {
 	int c;
 
