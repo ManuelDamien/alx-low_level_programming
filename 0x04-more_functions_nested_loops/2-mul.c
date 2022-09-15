@@ -5,7 +5,7 @@
  * @b: b - variable
  * Return: 0 when successful
  */
-int mul(int a, int b);
+int mul(int a, int b)
 {
 	int mul;
 
