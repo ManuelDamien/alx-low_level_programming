@@ -27,7 +27,7 @@ int _atoi(char *s)
 			if (b % 2)
 				dig = -dig;
 			c = c * 10 + dig;
-			f = 1;
+			d = 1;
 			if (s[a + 1] < '0' || s[a + 1] > '9')
 				break;
 			d = 0;
