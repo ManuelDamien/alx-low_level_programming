@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - progragram execution stage
- * Return: 0 when successful
+ * main - dreams do not become reality through magic
+ * Return: when successful
  */
 int main(void)
 {
@@ -10,7 +10,7 @@ int main(void)
 	int *p;
 
 	a[2] = 1024;
-	*p = &n;
+	p = &n;
 	/*
 	 * write your line of code here...
 	 * Remember:
