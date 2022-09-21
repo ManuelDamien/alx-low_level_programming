@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - dreams do not become reality through magic
- * Return: when successful
+ * Return: 0 when successful
  */
 int main(void)
 {
