@@ -1,10 +1,11 @@
 #include <stdio.h>
-
+/**
+ * main - A dream doesn't become reality through magic
+ * Return: 0 when successful
+ */
 int main(void)
 {
-	int n;
-	int a[5];
-	int *p;
+	int n, a[5], *p;
 
 	a[2] = 1024;
 	p = &n;
