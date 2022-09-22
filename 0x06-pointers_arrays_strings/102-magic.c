@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints a[2] = 98, followed by a new line
+ * main- prints a[2] = 98, followed by a new line
  * Return: 0
  */
 int main(void)
@@ -10,7 +10,7 @@ int main(void)
 	int *p;
 
 	a[2] = 1024;
-	p = &n;
+	p = &a;
 	/*
 	 * write your line of code here...
 	 * Remember:
