@@ -1,8 +1,5 @@
 #include <stdio.h>
-/**
- *  main - Program execution stage
- *  Return: 0 when successful
- */
+
 int main(void)
 {
 	int n;
