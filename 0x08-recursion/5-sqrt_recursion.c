@@ -7,22 +7,27 @@
  */
 int _sqrt_recursion(int n)
 {
-	if (n == 1 || n == 0)
-		return (n);
-	return (_sqrt(0, n));
-}
+	int result = 0, iterator = 1;
 
-/**
- * _sqrt - square root of an entered number
- * @n: test number
- * @x: squared number
- * Return: the square root of n - 0 when successful
- */
-int _sqrt(int n, int x)
-{
-	if (n > x / 2)
+	result = calculate_sqrt(n, iterator);
+	if (result == -1)
 		return (-1);
-	else if (n * n == x)
-		return (n);
-	return (_sqrt(n + 1, x));
+	else
+		return (result);
+}
+/**
+ * calculate_sqrt - function that calculate the natural square root of
+ * a number
+ * @n: number to calculate sqrt
+ * @i: initial number to test sqrt
+ * Return: Value to sqrt
+ */
+int calculate_sqrt(int  n, int i)
+{
+	if (n / i == i && n % i == 0)
+		return (i);
+	if (n / i < i)
+		return (-1);
+	i = calculate_sqrt(n, i + 1);
+	return (i);
 }
