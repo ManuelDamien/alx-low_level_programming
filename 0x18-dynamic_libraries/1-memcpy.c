@@ -1,20 +1,18 @@
 #include "main.h"
-
 /**
-**_memcpy - function that copy spaces of memory
-*@dest:received a char
-*@src: char to fill especify the space of memory
-*@n:received int the limit
-*Return: a pointer to the memory area 'dest'
+*_memcpy - The _memcpy() function copies n bytes
+* from memory area src to memory area dest
+*@dest:area where bytes are copied to
+*@src:area where bytes are copied from
+*@n:number of bytes to copy
+*Return: returns a pointer to n
 */
-
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int i;
+	unsigned int i = 0;
 
-	for (i = 0; i < n; i++)
-	{
+	for (; i < n; i++)
 		dest[i] = src[i];
-	}
+
 	return (dest);
 }
